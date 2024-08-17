@@ -11,7 +11,8 @@ I have used Bibitor, LLC data to analyze and identify inventory trends from year
 
 ### Data Exploration
 I explored the data to get familiar and decide what can be useful for due diligence.
-SQL Query:
+
+SQL Query: [Data Explaration](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Exploration.sql)
 ### Case Studies
 #### Case Study 1:
 Executive leadership is looking for dashboard reporting that would be useful to help identify and monitor vendor activity in order to focus efforts strategically on key supplier relationships.
