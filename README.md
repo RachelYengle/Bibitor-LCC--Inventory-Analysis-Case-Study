@@ -15,18 +15,24 @@ SQL Query:
 ### Case Studies
 #### Case Study 1:
 Executive leadership is looking for dashboard reporting that would be useful to help identify and monitor vendor activity in order to focus efforts strategically on key supplier relationships.
-1. Ive created an aggregate table that includes all critical vendor billings and their associated purchasing activity
-   SQL Query: [Data Case 1.1](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/edit/main/Data%20Case%201)
+1. Ive created an aggregate table that includes all critical vendor billings and their associated purchasing activity.
+
+   SQL Query: [Data Case 1.1.sql](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/edit/main/Data%20Case%201)
+
    Data Visualization:
-2. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
-   SQL Query:[Data Case 1.2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2)
+3. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
+
+   SQL Query: [Data Case 1.2.sql](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2)
+
    Data Visualization:
 
 #### Case Study 2:
 You notice that there is inventory that is purchased but sits on the shelf for a long period of time rather than being sold.  
 As such, there is an opportunity to add value to the procurement process by identifying trends in the timing inventory purchased versus its corresponding sale.  
 I considered key data points around purchase prices, seasonality, and vendor information in creating an aggregate table for future visual & statistical analysis. 
+
 SQL Query:
+
 Data Visualization: 
 
 
