@@ -7,7 +7,7 @@ Bibitor has asked the team to complete due diligence on their wine and spirits b
 beginning and ending inventory, purchases and sales for a 12 month period.
 
 ### Data Source
-I have used Bibitor, LLC data to analyze and identify inventory trends from year 2016 which can be downloaded from [PWC Data anlytics case study data files](https://www.pwc.com/us/en/careers/university-relations/data-and-analytics-case-studies-files.html)
+I have used Bibitor, LLC data to analyze and identify inventory trends from year 2016 which can be downloaded from [PWC Data analytics case study data files](https://www.pwc.com/us/en/careers/university-relations/data-and-analytics-case-studies-files.html)
 
 ### Case Studies
 #### Case Study 1:
