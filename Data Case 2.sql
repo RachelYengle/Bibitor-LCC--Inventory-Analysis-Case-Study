@@ -1,7 +1,7 @@
 --This table can be used for further analysis, like calculating profitability, vendor performance, or shelf-time efficiency.--
 --focus on the core aspects necessary for analyzing inventory timing, procurement trends, seasonality, and vendor performance.--
 
-CREATE TABLE TEMP.c2_Prep_Analysis_Simplified AS
+CREATE TABLE TEMP.c2_Prep_Analysis AS
 SELECT  
     p.InventoryId,
     p.PODate,
