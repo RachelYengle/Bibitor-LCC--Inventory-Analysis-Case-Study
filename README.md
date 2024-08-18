@@ -18,7 +18,7 @@ SQL Query: [Data Explaration](https://github.com/RachelYengle/Bibitor-LCC--Inven
 Executive leadership is looking for dashboard reporting that would be useful to help identify and monitor vendor activity in order to focus efforts strategically on key supplier relationships.
 1. Ive created an aggregate table that includes all critical vendor billings and their associated purchasing activity.
 
-   SQL Query: [Data Case 1.1](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/edit/main/Data%20Case%201)
+   SQL Query: [Data Case 1.1](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.1.sql)
 
 2. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
 
