@@ -22,7 +22,7 @@ Executive leadership is looking for dashboard reporting that would be useful to 
 
 2. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
 
-   SQL Query: [Data Case 1.2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2)
+   SQL Query: [Data Case 1.2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2.sql)
 
 Data Visualization:
 
