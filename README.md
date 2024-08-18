@@ -20,12 +20,11 @@ Executive leadership is looking for dashboard reporting that would be useful to 
 
    SQL Query: [Data Case 1.1](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/edit/main/Data%20Case%201)
 
-   Data Visualization:
-3. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
+2. Ive created separate tables to store key information, such as ‘top 10 vendors’ by quantity purchased.
 
    SQL Query: [Data Case 1.2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2)
 
-   Data Visualization:
+Data Visualization:
 
 #### Case Study 2:
 You notice that there is inventory that is purchased but sits on the shelf for a long period of time rather than being sold.  
