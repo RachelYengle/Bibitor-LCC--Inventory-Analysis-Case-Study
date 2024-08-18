@@ -1,22 +1,20 @@
 --This table can be used for further analysis, like calculating profitability, vendor performance, or shelf-time efficiency.--
+--focus on the core aspects necessary for analyzing inventory timing, procurement trends, seasonality, and vendor performance.--
 
-CREATE TABLE TEMP.c2_Prep_Analysis AS
+CREATE TABLE TEMP.c2_Prep_Analysis_Simplified AS
 SELECT  
     p.InventoryId,
     p.PODate,
     s.SalesDate,
-    ROUND(julianday(s.SalesDate) - julianday(p.PODate)) AS 'DaysOnShelf',
+    ROUND(julianday(s.SalesDate) - julianday(p.PODate)) AS DaysOnShelf,
     p.PurchasePrice,
-    s.SalesPrice,
-    strftime('%m', p.PODate) AS 'PurchaseMonth',
-    strftime('%m', s.SalesDate) AS 'SaleMonth',
+    strftime('%m', p.PODate) AS PurchaseMonth,
+    strftime('%m', s.SalesDate) AS SaleMonth,
     p.VendorName,
-    p.VendorNumber,
-    p.Quantity AS 'PurchasedQuantity',
-    s.SalesQuantity
+    p.VendorNumber
 FROM  
     PurchasesDec p 
-LEFT JOIN 
+INNER JOIN 
     SalesDec s 
 ON 
     p.InventoryId = s.InventoryId;
