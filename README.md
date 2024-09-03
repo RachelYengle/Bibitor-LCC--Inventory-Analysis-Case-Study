@@ -33,5 +33,5 @@ I considered key data points around purchase prices, seasonality, and vendor inf
 
 SQL Query: [Data Case 2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%202.sql)
 
-Data Visualization: [Tableau](
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/rachel.yengle/viz/BibitorLLC-DaysonShelfAnalysis/DaysonShelfAnalysis?publish=yes)
 
