@@ -1,40 +1,29 @@
 --This table can be used for further analysis, like calculating profitability, vendor performance, or shelf-time efficiency.--
---focus on the core aspects necessary for analyzing inventory timing, procurement trends, seasonality, and vendor performance.--
+-- focus on the core aspects necessary for analyzing inventory timing, procurement trends, seasonality, and vendor performance.--
+--Due to size of data and limits on Tableau Public, I am only doing this Days on Shelf Anlaysis based on Quarter 1 data.--
 
-CREATE TABLE TEMP.c2_DaysonShelf_Anlaysis AS
-SELECT
-    ROUND(julianday(s.SalesDate) - julianday(p.PODate)) AS DaysOnShelf
-FROM  
-    PurchasesDec p 
-INNER JOIN 
-    SalesDec s 
-ON 
-    p.InventoryId = s.InventoryId;
---
-
-CREATE TABLE TEMP.c2_Season_Anlaysis AS
-SELECT  
-  strftime('%m', p.PODate) AS PurchaseMonth,
-  strftime('%m', s.SalesDate) AS SaleMonth
-FROM  
-    PurchasesDec p 
-INNER JOIN 
-    SalesDec s 
-ON 
-    p.InventoryId = s.InventoryId;
-
---
-CREATE TABLE TEMP.c2_Data_Analysis AS
-SELECT  
-    p.InventoryId,
-    p.PODate,
-    s.SalesDate,
+CREATE TABLE Inventory_Analysis AS
+SELECT 
+	p.InventoryId,
 	p.PurchasePrice,
+	p.ReceivingDate,
 	p.VendorName,
-    p.VendorNumber
-FROM  
-    PurchasesDec p 
-INNER JOIN 
-    SalesDec s 
+	s.SalesDate
+ FROM 
+	PurchasesDec p
+INNER JOIN
+	SalesDec s
 ON 
-    p.InventoryId = s.InventoryId;
+p.InventoryId = s.InventoryId
+WHERE 
+    strftime('%m', s.SalesDate) IN ('01', '02', '03')
+	AND
+    p.InventoryId IN (
+        SELECT 
+            InventoryId
+        FROM 
+            PurchasesDec
+        GROUP BY 
+            InventoryId
+        HAVING 
+            COUNT(*) <= 2000
