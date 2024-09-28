@@ -24,7 +24,7 @@ Executive leadership is looking for dashboard reporting that would be useful to 
 
    SQL Query: [Data Case 1.2](https://github.com/RachelYengle/Bibitor-LCC--Inventory-Analysis-Case-Study/blob/main/Data%20Case%201.2.sql)
 
-Data Visualization: [Tableau](https://public.tableau.com/app/profile/rachel.yengle/viz/BibitorLLC-VendorActivity/BibitorLLC-CriticalVendorsActivity)
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/rachel.yengle/viz/BibitorLLC-DaysonShelfAnalysis_17254007744980/DaysonShelfAnalysis)
 
 #### Case Study 2:
 You notice that there is inventory that is purchased but sits on the shelf for a long period of time rather than being sold.  
